@@ -6,6 +6,7 @@ public class UserRegisterationDto
 	private String lastName;
 	private String email;
 	private String password;
+	
 	public String getFirstName() {
 		return firstName;
 	}
@@ -30,6 +31,7 @@ public class UserRegisterationDto
 	public void setPassword(String password) {
 		this.password = password;
 	}
+	
 	public UserRegisterationDto(String firstName, String lastName, String email, String password) {
 		super();
 		this.firstName = firstName;
@@ -37,8 +39,8 @@ public class UserRegisterationDto
 		this.email = email;
 		this.password = password;
 	}
+	
 	public UserRegisterationDto() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 }
